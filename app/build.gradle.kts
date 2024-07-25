@@ -37,9 +37,15 @@ android {
 
 dependencies {
 
+
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+
+    //Conexión a Oracle
+    implementation("com.oracle.database.jdbc:ojdbc6:11.2.0.4")
+
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
