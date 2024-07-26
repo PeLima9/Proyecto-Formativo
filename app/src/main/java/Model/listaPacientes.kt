@@ -3,8 +3,8 @@ package Model
 import java.util.UUID
 
 data class listaPacientes(
-    val uuid: UUID,
-    val nombres: String,
+    val uuid: String,
+    var nombres: String,
     val apellidos: String,
     val edad: Int,
     val enfermedad: String,
